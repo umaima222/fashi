@@ -1,0 +1,72 @@
+/* header start here */
+.header-top {
+    padding: 40px 0;
+}
+
+.whislist-icons {
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 25px;
+}
+.heart {
+    position: relative;
+}
+.heart span {
+    position: absolute;
+    font-size: 9px;
+    padding: 1px 7px;
+    background: yellow;
+    border-radius: 27px;
+    left: 17px;
+    top: 0;
+}
+.heart .fa {
+    font-size: 25px;
+}
+.heart .far {
+    font-size: 25px;
+}
+.heart svg {
+    font-size: 27px;
+}
+.categories-input {
+    border-radius: 0;
+}
+.category-btn .btn {
+    color: white;
+}
+.mega-menu .menu-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    gap: 14px;
+}
+.mega-menu  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+    box-shadow: unset;
+}
+.menu-bar-department {
+    background: black;
+}
+
+.menu-bar-department li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-bar-department li {
+    padding: 10px;
+    list-style: none;
+}
+
+.menu-bar-department ul {
+    padding: 0;
+    text-align: center;
+}
+/* header end here */
